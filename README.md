@@ -10,4 +10,6 @@ Warning: Uses a Stick for left right click world selection.
 
 Urban map example: examples/arena1.yml
 
+GNU GPLv3 License applies to all of this project. Any license (if any) mentioned inside any of the files of this repository may be ignored.
+
 ### Made a long time ago. Little to no support will be given. Repo is mainly for archive.
