@@ -22,14 +22,6 @@ import java.util.function.Consumer;
 // Avoid WorldEdit / FAWE hard dependency
 // Most actions able to be done asynchronously, is done asynchronously.
 public class BSchematic {
-
-    private static final String $A1 = "File with path 'me.bramar.thebridge.util.schematic.BSchematic' (from now on will be called as 'the File' or 'this File' with or without capitalization(s)) is provided on an AS-IS basis with no warranties or liability. You have no right to interact with this file without permission from bramar, Spigot Developer with ID 614936 (from now on will be called as 'the Owner' with or without capitalization(s)). You may not use this file in any way without the Owner's permission." +
-            "This file is solely for this plugin's uses and not any others.";
-    private static final String $B1 = "You may not and have no right to use, distribute or modify this file either commercially or not.";
-    private static final String $C1 = "Use of this file, either patent or private or any other means, is prohibited no matter of the permission from the Owner";
-    private static final String $D1 = "This license may change without any prior notices and you will be assumed to agree to them.";
-    private static final String $E1 = "You may not copy, modify, publish, use, compile, sell, or distribute this software, either commercial or non commercial, without prior permission from the Owner.";
-
     private static final TheBridge plugin = TheBridge.getInstance();
     private static final ModuleLogger logger = new ModuleLogger("Schematic");
     private static final NMSUtil nms = plugin.getNMSUtil();

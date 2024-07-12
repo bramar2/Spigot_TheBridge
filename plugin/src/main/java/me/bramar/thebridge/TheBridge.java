@@ -47,9 +47,6 @@ import java.util.UUID;
 
 @Getter
 public class TheBridge extends JavaPlugin implements Listener {
-    String $A1 = "" +
-            "All files in/made by the Software (including but not limited to, the .yml, .java and .class files), is licensed under the License," +
-            "specified in the LICENSE file and/or the LICENSE.java file and/or the LICENSE.class file";
     @Getter private static TheBridge instance;
     public static final boolean ALLOW_SOLO_GAMES = true; // for debug
     //
