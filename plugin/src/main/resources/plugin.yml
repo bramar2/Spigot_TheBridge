@@ -1,0 +1,18 @@
+name: ${project.parent.artifactId}
+description: ${project.parent.description}
+version: ${project.parent.version}
+main: me.bramar.thebridge.TheBridge
+author: bramar
+softdepend: [PlaceholderAPI]
+api-version: 1.13
+commands:
+  thebridge:
+    usage: /<command>
+    description: Invalid usage. Use /tb help for more info
+    aliases: [tb]
+permissions:
+  thebridge.*:
+    description: All perms
+    children:
+      thebridge.admin: true
+      thebridge.player: true

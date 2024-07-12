@@ -1,0 +1,29 @@
+# Tablist File Configuration
+
+# Header & Footer
+# Ticks start from 0, so anything below 0 OR not a number will be ignored
+# Delay-after-turn means after all the ticks has finished.
+# How many ticks to wait, until the next turn of ticks.
+# An empty section (represented as '{}') can be created to not put header or footer
+
+# Fake ping allows 'randomize' or 'constant', e.g randomize, value: '1-500', constant: '3'
+# Optional param for 'randomize' is 'ping-update', which states every X ticks to update the ping
+
+# hide-skin: false, will NOT show skin if the server is in offline-mode
+
+version: 1
+enabled: true
+delay-after-turn: 50
+name-format: "%tb_team_color%{player}"
+hide-skin: false
+show-health: true
+health-displayname: "HP"
+fake-ping:
+  enabled: false
+  mode: randomize
+  value: 5-100
+show-disconnected-as-spectator: false
+header:
+  0:
+    - '&bTHE BRIDGE'
+footer: {}

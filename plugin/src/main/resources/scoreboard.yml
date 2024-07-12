@@ -1,0 +1,54 @@
+# Scoreboard File Configuration
+#
+# Ticks start from 0, so anything below 0 OR not a number will be ignored
+# Format for each tick:
+# - '{TITLE}'
+# - '{this is ignored}'
+# - 'Content Line 1'
+# - 'Content Line 2'
+#
+# Delay-after-turn means after all the ticks has finished.
+# How many ticks to wait, until the next turn of ticks.
+# delay-after-turn: 50
+# In this case (with 1 tick of only '0'), the scoreboard will update every 10 ticks/0.5 seconds
+# --- THIS IS A BASIC SCOREBOARD. FLICKERS AND INCONSISTENCIES MIGHT AND PROBABLY WILL HAPPEN!               ---
+# --- THIS SCOREBOARD WILL NEVER BE UPDATED EXCEPT FOR BUGS! USE A SUPPORTED BOARD PLUGIN FOR BETTER RESULTS ---
+
+version: 1
+enabled: true
+spectator-scoreboard-enabled: true
+delay-after-turn: 10
+ticks:
+  0:
+    - '&e&lDUELS'
+    - ''
+    - '&709/15/22 &8m12345'
+    - ''
+    - 'Time Left: &a%tb_arena_time_left_per_m%&f:&a%tb_arena_time_left_per_s%'
+    - ''
+    - '%tb_team_color%%tb_if_{tb_team_number}_0_[R]_1_[B]_[?]% %tb_team_goal_symbol_⬤_a_&7%'
+    - '%tb_team_other_color%%tb_if_{tb_team_other_number}_0_[R]_1_[B]_[?]% %tb_team_goal_symbol_other_⬤_a_&7%'
+    - ''
+    - 'Kills: &a1'
+    - 'Deaths: &a3'
+    - ''
+    - 'Mode: &aBridge Duel'
+    - 'Overall Winstreak: &a1'
+    - 'Mode Winstreak: &a1'
+    - ''
+    - '&eTheBridge by bramar v1.0 &1BETA'
+
+spectator-ticks:
+  0:
+    - '&e&lDUELS'
+    - ''
+    - '&709/15/22 &8m12345'
+    - ''
+    - 'Time Left: &a%tb_arena_time_left_per_m%&f:&a%tb_arena_time_left_per_s%'
+    - ''
+    - '%tb_team_0_color%[R] %tb_team_0_goal_symbol_⬤_a_&7%'
+    - '%tb_team_1_color%[B] %tb_team_1_goal_symbol_⬤_a_&7%'
+    - ''
+    - 'Mode: &aBridge Duel'
+    - ''
+    - '&eTheBridge by bramar v1.0 &1BETA'

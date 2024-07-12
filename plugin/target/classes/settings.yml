@@ -1,0 +1,102 @@
+version: 1
+spawn-location:
+  ==: org.bukkit.Location
+  world: world
+  x: 49.47149751762609
+  y: 102.90382702707727
+  z: 92.86373098496912
+  pitch: 27.510805
+  yaw: 86.35156
+
+
+team:
+  1:
+    ==: me.bramar.thebridge.config.TeamConfig
+    version: 1
+    color-prefix: '&c'
+    name: Red
+    block:
+      ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      amount: 64
+      damage: 14
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          internal: H4sIAAAAAAAAAONiYOBg4EsqykxJTy0oyi9ILSqpZGBNLMrNL2IAABTw5hocAAAA
+          color:
+            ==: Color
+            RED: 255
+            BLUE: 0
+            GREEN: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          internal: H4sIAAAAAAAAAONiYOBg4EsqykxJTy0oyi9ILSqpZGBNLMrNL2IAABTw5hocAAAA
+          color:
+            ==: Color
+            RED: 255
+            BLUE: 0
+            GREEN: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          internal: H4sIAAAAAAAAAONiYOBg4EsqykxJTy0oyi9ILSqpZGBNLMrNL2IAABTw5hocAAAA
+          color:
+            ==: Color
+            RED: 255
+            BLUE: 0
+            GREEN: 0
+      - null
+  2:
+    ==: me.bramar.thebridge.config.TeamConfig
+    version: 1
+    color-prefix: '&9'
+    name: Blue
+    block:
+      ==: org.bukkit.inventory.ItemStack
+      type: STAINED_CLAY
+      amount: 64
+      damage: 11
+    armor:
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          internal: H4sIAAAAAAAAAONiYOBg4EsqykxJTy0oyi9ILSqpZGBNLMrNL2IAABTw5hocAAAA
+          color:
+            ==: Color
+            RED: 0
+            BLUE: 255
+            GREEN: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          internal: H4sIAAAAAAAAAONiYOBg4EsqykxJTy0oyi9ILSqpZGBNLMrNL2IAABTw5hocAAAA
+          color:
+            ==: Color
+            RED: 0
+            BLUE: 255
+            GREEN: 0
+      - ==: org.bukkit.inventory.ItemStack
+        type: LEATHER_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          internal: H4sIAAAAAAAAAONiYOBg4EsqykxJTy0oyi9ILSqpZGBNLMrNL2IAABTw5hocAAAA
+          color:
+            ==: Color
+            RED: 0
+            BLUE: 255
+            GREEN: 0
+      - null

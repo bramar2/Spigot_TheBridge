@@ -1,0 +1,14 @@
+[21:43:54 WARN]: [TheBridge] Task #19 for TheBridge v1.0 generated an exception
+java.lang.NullPointerException: null
+        at me.bramar.thebridge.config.BridgeConfig.a(BridgeConfig.java:264) ~[?:?]
+        at me.bramar.thebridge.config.BridgeConfig.a(BridgeConfig.java:228) ~[?:?]
+        at me.bramar.thebridge.config.BridgeConfig.a(BridgeConfig.java:104) ~[?:?]
+        at me.bramar.thebridge.config.BridgeConfig.<init>(BridgeConfig.java:97) ~[?:?]
+        at me.bramar.thebridge.TheBridge.l(TheBridge.java:69) ~[?:?]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:64) ~[patched_1.12.2.jar:git-Paper-1620]
+        at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:840) ~[patched_1.12.2.jar:git-Paper-1620]
+        at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:423) ~[patched_1.12.2.jar:git-Paper-1620]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:774) ~[patched_1.12.2.jar:git-Paper-1620]
+        at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:666) ~[patched_1.12.2.jar:git-Paper-1620]
+        at java.lang.Thread.run(Thread.java:748) [?:1.8.0_311]

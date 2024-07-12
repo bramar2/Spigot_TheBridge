@@ -1,0 +1,17 @@
+me\bramar\thebridge\util\nms\packet\NMSPlayerListHeaderFooterPacket.class
+me\bramar\thebridge\util\nms\NMSTagCompound.class
+me\bramar\thebridge\util\nms\NMSItemStack.class
+me\bramar\thebridge\util\nms\packet\NMSPlayerInfoPacket.class
+me\bramar\thebridge\util\nms\packet\NMSMultiBlockChangeInfo.class
+me\bramar\thebridge\util\nms\NMSBlockData.class
+me\bramar\thebridge\util\nms\NMSUtil.class
+me\bramar\thebridge\util\nms\NMSEntityPlayer.class
+me\bramar\thebridge\util\nms\packet\NMSUpdateScorePacket.class
+me\bramar\thebridge\util\nms\NMSWorld.class
+me\bramar\thebridge\util\nms\packet\NMSMultiBlockChangePacket.class
+me\bramar\thebridge\util\nms\packet\NMSPlayerInfoAction$1.class
+me\bramar\thebridge\util\nms\packet\ProfileProperty.class
+me\bramar\thebridge\util\nms\NMSChunk.class
+me\bramar\thebridge\util\nms\packet\NMSPlayerInfoActionEnum.class
+me\bramar\thebridge\util\nms\packet\NMSPlayerInfoAction.class
+me\bramar\thebridge\util\nms\NMSOriginal.class

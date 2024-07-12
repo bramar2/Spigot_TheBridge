@@ -1,0 +1,13 @@
+me\bramar\thebridge\util\nms\v1_8_R3\MultiBlockChangeInfo.class
+me\bramar\thebridge\util\nms\v1_8_R3\PlayerInfoPacket.class
+me\bramar\thebridge\util\nms\v1_8_R3\EntityPlayer.class
+me\bramar\thebridge\util\nms\v1_8_R3\TagCompound.class
+me\bramar\thebridge\util\nms\v1_8_R3\NMSUtil.class
+me\bramar\thebridge\util\nms\v1_8_R3\UpdateScorePacket.class
+me\bramar\thebridge\util\nms\v1_8_R3\BlockData.class
+me\bramar\thebridge\util\nms\v1_8_R3\Chunk.class
+me\bramar\thebridge\util\nms\v1_8_R3\World.class
+me\bramar\thebridge\util\nms\v1_8_R3\PlayerInfoPacket$1.class
+me\bramar\thebridge\util\nms\v1_8_R3\PlayerListHeaderFooterPacket.class
+me\bramar\thebridge\util\nms\v1_8_R3\ItemStack.class
+me\bramar\thebridge\util\nms\v1_8_R3\MultiBlockChangePacket.class

@@ -1,0 +1,85 @@
+version: 1
+
+game:
+  # Treats arenas as maps, and instead of it only running 1 game, the plugin copies the arena into a new world as needed for demand
+  unlimited-arenas: false
+  time-limit: 18000
+  goal: 5
+  bow-cooldown: 70
+  absorption-only-on-first-gap: false
+  # Allows placing in "place-box" which is a shrinked arena box by X blocks (positive only)
+  place-box-shrink: 5
+  only-break-placed-blocks: true
+  allow-break:
+    - STAINED_CLAY
+  no-drop: true
+  no-block-loot-drop: false
+  no-pickup: false
+  no-slot-change-armor: true
+  no-slot-change-all: false
+  # if allows slot change armor (below is false), /give (arrow-refill-using-give) will always be used
+  no-slot-change-arrow: true
+  arrow-refill-using-give: false
+  actionbar-arrow-cooldown: false
+  gamemode:
+    in-game: SURVIVAL
+    in-box: SURVIVAL
+    finished: SPECTATOR
+    after-game: SPECTATOR
+  friendly-fire: false
+  self-bow-boost: false
+  arrow-kb-strength: unset
+  custom-chat: true
+  chat-format: '[GAME] %name% %color% %displayname%'
+  fireworks: true
+  teleport-to-spawn-after-leave: true
+  allow-specatators: true
+
+after-game:
+  clear-inv: true
+  tp-to-spawn: true
+
+sound:
+  queue-countdown: BLOCK_NOTE_HAT:20:1:RECORDS
+  cage-countdown: BLOCK_NOTE_HAT:1:1:RECORDS
+  cage-open: BLOCK_NOTE_HARP:1:1:RECORDS
+  kill: ENTITY_EXPERIENCE_ORB_PICKUP:1:1:MASTER
+
+title:
+  cage:
+    enabled: true
+    times: 1-60-1
+  cage-fight:
+    enabled: true
+    times: 1-20-5
+  queue:
+    enabled: true
+    times: 1-60-1
+  win:
+    enabled: true
+    times: 1-200-1
+
+messages-enabled:
+  cage: false
+  cage-fight: false
+  queue: true
+  win: true
+  reached-time-limit: true
+
+show-health-below-name: true
+health-scoreboard-name: '&c\u2764'
+
+combat-tag:
+  damager-expiry: 300
+  cause-expiry: 600
+
+color-format:
+  queue-title:
+    1-3: '&c'
+    else: '&e'
+  queue-message:
+    else: '&e'
+  cage-title:
+    else: '&a'
+  cage-message:
+    else: '&a'
