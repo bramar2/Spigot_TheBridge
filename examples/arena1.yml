@@ -1,0 +1,143 @@
+# This is a working example for Hypixel's map Urban.
+# For copyright reasons, I cannot distribute the world file.
+# If you have access to the Urban map legally,
+# you can download it, save it as a BSchematic.
+# Then save it under maps/{uuid}.bschematic with the same
+# UUID as this arena
+version: 1
+arena:
+  ==: me.bramar.thebridge.arena.BridgeArena
+  uuid: b00ae781-8fec-4c8e-81f1-c4e259ea7eb1
+  box:
+    ==: me.bramar.thebridge.model.BoundingBox
+    min:
+      x: -64
+      y: 55
+      z: -24
+    max:
+      x: 63
+      y: 136
+      z: 33
+  name: Arena
+  map_name: Urban
+  world: Urban
+  join_location:
+    ==: org.bukkit.Location
+    world: Urban
+    x: 30
+    y: 96
+    z: 0
+    pitch: 0
+    yaw: 90
+  void_y: 65
+  team:
+    1:
+      ==: me.bramar.thebridge.arena.BridgeTeam
+      arena_uuid: b00ae781-8fec-4c8e-81f1-c4e259ea7eb1
+      team_n: 1
+      min_players: 1
+      max_players: 1
+      spawn_location:
+        ==: org.bukkit.Location
+        world: Urban
+        x: 30
+        y: 101
+        z: 0
+        pitch: 0
+        yaw: 90
+      respawn_location:
+        ==: org.bukkit.Location
+        world: Urban
+        x: 30
+        y: 96
+        z: 0
+        pitch: 0
+        yaw: 90
+      spawn_box:
+        ==: me.bramar.thebridge.model.BoundingBox
+        min:
+          x: 27
+          y: 99
+          z: -4
+        max:
+          x: 33
+          y: 104
+          z: 4
+      goal_boxes:
+        - ==: me.bramar.thebridge.model.BoundingBox
+          min:
+            x: 31
+            y: 87
+            z: -2
+          max:
+            x: 35
+            y: 88
+            z: 2
+    2:
+      ==: me.bramar.thebridge.arena.BridgeTeam
+      arena_uuid: b00ae781-8fec-4c8e-81f1-c4e259ea7eb1
+      team_n: 2
+      min_players: 1
+      max_players: 1
+      spawn_location:
+        ==: org.bukkit.Location
+        world: Urban
+        x: -29
+        y: 101
+        z: 0
+        pitch: 0
+        yaw: -90
+      respawn_location:
+        ==: org.bukkit.Location
+        world: Urban
+        x: -29
+        y: 96
+        z: 0
+        pitch: 0
+        yaw: -90
+      spawn_box:
+        ==: me.bramar.thebridge.model.BoundingBox
+        min:
+          x: -33
+          y: 99
+          z: -4
+        max:
+          x: -27
+          y: 104
+          z: 4
+      goal_boxes:
+        - ==: me.bramar.thebridge.model.BoundingBox
+          min:
+            x: -35
+            y: 87
+            z: -2
+          max:
+            x: -31
+            y: 88
+            z: 2
+  build:
+    place:
+      min_y: 82
+      max_y: 99
+      disallow_boxes:
+        - ==: me.bramar.thebridge.model.BoundingBox
+          min:
+            x: 30
+            y: 86
+            z: -2
+          max:
+            x: 36
+            y: 91
+            z: 3
+    break:
+      allow_boxes: []
+      disallow_boxes:
+        - ==: me.bramar.thebridge.model.BoundingBox
+          min:
+            x: 30
+            y: 86
+            z: -2
+          max:
+            x: 36
+            y: 91
+            z: 3
