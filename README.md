@@ -9,3 +9,5 @@ Uses multiple worlds not multiple servers. Only a constant amount of world can b
 Warning: Uses a Stick for left right click world selection.
 
 Urban map example: examples/arena1.yml
+
+### Made a long time ago. Little to no support will be given. Repo is mainly for archive.
